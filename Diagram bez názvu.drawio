@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T10:50:06.314Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" version="21.2.3" etag="zsSeQ21HoZFMETGK1O08" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-28T11:04:52.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="wpZBsEsInzFHrzVlVLy5" version="21.2.3" type="github">
   <diagram name="Stránka-1" id="TY36kED2EZUn_JVSVkyO">
-    <mxGraphModel>
+    <mxGraphModel dx="1143" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GuJA-vf1TnNp_3mTj2M9-4" target="GuJA-vf1TnNp_3mTj2M9-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-4" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GuJA-vf1TnNp_3mTj2M9-9" target="GuJA-vf1TnNp_3mTj2M9-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-9" value="Vytáhni kalkulátor z aktovky" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="50" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GuJA-vf1TnNp_3mTj2M9-10" target="GuJA-vf1TnNp_3mTj2M9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-10" value="Otevři kalkulátor a zapni ho&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="50" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GuJA-vf1TnNp_3mTj2M9-12" target="GuJA-vf1TnNp_3mTj2M9-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-12" value="Zadej příklad do kalkulátoru" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="520" y="50" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-15" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="545" y="180" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GuJA-vf1TnNp_3mTj2M9-18" target="GuJA-vf1TnNp_3mTj2M9-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-18" value="Ukáže to čísla" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="250" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GuJA-vf1TnNp_3mTj2M9-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-19" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GuJA-vf1TnNp_3mTj2M9-23" target="GuJA-vf1TnNp_3mTj2M9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-23" value="Zadej ten&amp;nbsp;&lt;br&gt;příklad znovu&amp;nbsp;&lt;br&gt;a dobře" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="370" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GuJA-vf1TnNp_3mTj2M9-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-25" value="vyjde z toho výsledek, doufej že dobrý" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="250" y="250" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-30" value="A máš to,&amp;nbsp; jsi šikula." style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+          <mxGeometry x="30" y="257.5" width="180" height="45" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
