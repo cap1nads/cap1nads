@@ -1,70 +1,135 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T11:04:52.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.58" etag="wpZBsEsInzFHrzVlVLy5" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-05T09:36:21.761Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.68" etag="NIn_rBhtDJGRs612actw" version="21.2.3" type="github">
   <diagram name="Stránka-1" id="TY36kED2EZUn_JVSVkyO">
-    <mxGraphModel dx="1143" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1143" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="GuJA-vf1TnNp_3mTj2M9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GuJA-vf1TnNp_3mTj2M9-4" target="GuJA-vf1TnNp_3mTj2M9-9">
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuJA-vf1TnNp_3mTj2M9-4" target="GuJA-vf1TnNp_3mTj2M9-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GuJA-vf1TnNp_3mTj2M9-4" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-4" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="10" y="70" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GuJA-vf1TnNp_3mTj2M9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GuJA-vf1TnNp_3mTj2M9-9" target="GuJA-vf1TnNp_3mTj2M9-10">
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="GuJA-vf1TnNp_3mTj2M9-9" target="GuJA-vf1TnNp_3mTj2M9-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GuJA-vf1TnNp_3mTj2M9-9" value="Vytáhni kalkulátor z aktovky" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-9" value="Vytáhni kalkulátor z aktovky" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="200" y="50" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="GuJA-vf1TnNp_3mTj2M9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GuJA-vf1TnNp_3mTj2M9-10" target="GuJA-vf1TnNp_3mTj2M9-12">
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GuJA-vf1TnNp_3mTj2M9-10" target="GuJA-vf1TnNp_3mTj2M9-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GuJA-vf1TnNp_3mTj2M9-10" value="Otevři kalkulátor a zapni ho&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-10" value="Otevři kalkulátor a zapni ho&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="370" y="50" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="GuJA-vf1TnNp_3mTj2M9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GuJA-vf1TnNp_3mTj2M9-12" target="GuJA-vf1TnNp_3mTj2M9-15">
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuJA-vf1TnNp_3mTj2M9-12" target="GuJA-vf1TnNp_3mTj2M9-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="570" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GuJA-vf1TnNp_3mTj2M9-12" value="Zadej příklad do kalkulátoru" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-12" value="Zadej příklad do kalkulátoru" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="520" y="50" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="GuJA-vf1TnNp_3mTj2M9-15" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=90;" vertex="1" parent="1">
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-15" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="545" y="180" width="50" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="GuJA-vf1TnNp_3mTj2M9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GuJA-vf1TnNp_3mTj2M9-18" target="GuJA-vf1TnNp_3mTj2M9-25">
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GuJA-vf1TnNp_3mTj2M9-18" target="GuJA-vf1TnNp_3mTj2M9-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GuJA-vf1TnNp_3mTj2M9-18" value="Ukáže to čísla" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-18" value="Ukáže to čísla" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="430" y="250" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GuJA-vf1TnNp_3mTj2M9-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GuJA-vf1TnNp_3mTj2M9-19">
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuJA-vf1TnNp_3mTj2M9-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="620" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GuJA-vf1TnNp_3mTj2M9-19" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x" vertex="1" parent="1">
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-19" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x" parent="1" vertex="1">
           <mxGeometry x="600" y="250" width="40" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="GuJA-vf1TnNp_3mTj2M9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GuJA-vf1TnNp_3mTj2M9-23" target="GuJA-vf1TnNp_3mTj2M9-18">
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="GuJA-vf1TnNp_3mTj2M9-23" target="GuJA-vf1TnNp_3mTj2M9-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GuJA-vf1TnNp_3mTj2M9-23" value="Zadej ten&amp;nbsp;&lt;br&gt;příklad znovu&amp;nbsp;&lt;br&gt;a dobře" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-23" value="Zadej ten&amp;nbsp;&lt;br&gt;příklad znovu&amp;nbsp;&lt;br&gt;a dobře" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="570" y="370" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="GuJA-vf1TnNp_3mTj2M9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GuJA-vf1TnNp_3mTj2M9-25">
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuJA-vf1TnNp_3mTj2M9-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="210" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GuJA-vf1TnNp_3mTj2M9-25" value="vyjde z toho výsledek, doufej že dobrý" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-25" value="vyjde z toho výsledek, doufej že dobrý" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="250" y="250" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GuJA-vf1TnNp_3mTj2M9-30" value="A máš to,&amp;nbsp; jsi šikula." style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" vertex="1" parent="1">
+        <mxCell id="GuJA-vf1TnNp_3mTj2M9-30" value="A máš to,&amp;nbsp; jsi šikula." style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start" parent="1" vertex="1">
           <mxGeometry x="30" y="257.5" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="YVkCKCB2TwKrgrk1Wrwo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YVkCKCB2TwKrgrk1Wrwo-2" target="YVkCKCB2TwKrgrk1Wrwo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YVkCKCB2TwKrgrk1Wrwo-2" value="začátek učení" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="210" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YVkCKCB2TwKrgrk1Wrwo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YVkCKCB2TwKrgrk1Wrwo-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YVkCKCB2TwKrgrk1Wrwo-3" value="otevři SOL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YVkCKCB2TwKrgrk1Wrwo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YVkCKCB2TwKrgrk1Wrwo-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="440" as="targetPoint" />
+            <mxPoint x="1360" y="380" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1240" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YVkCKCB2TwKrgrk1Wrwo-10" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;kontrola průměrů z předmětu, načíst známky&lt;/span&gt;&lt;br&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YVkCKCB2TwKrgrk1Wrwo-13" value="ano" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YVkCKCB2TwKrgrk1Wrwo-11" target="YVkCKCB2TwKrgrk1Wrwo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YVkCKCB2TwKrgrk1Wrwo-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YVkCKCB2TwKrgrk1Wrwo-11" target="YVkCKCB2TwKrgrk1Wrwo-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1240" y="560" />
+              <mxPoint x="1240" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YVkCKCB2TwKrgrk1Wrwo-19" value="ne" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YVkCKCB2TwKrgrk1Wrwo-14">
+          <mxGeometry x="-0.2482" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YVkCKCB2TwKrgrk1Wrwo-11" value="JE růměr pod 3,4?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="440" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YVkCKCB2TwKrgrk1Wrwo-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YVkCKCB2TwKrgrk1Wrwo-12" target="YVkCKCB2TwKrgrk1Wrwo-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YVkCKCB2TwKrgrk1Wrwo-12" value="pakliže ano&amp;nbsp;&lt;br&gt;UČ SE KRETÉNE BLBEJ!" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YVkCKCB2TwKrgrk1Wrwo-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YVkCKCB2TwKrgrk1Wrwo-15" target="YVkCKCB2TwKrgrk1Wrwo-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YVkCKCB2TwKrgrk1Wrwo-15" value="PAKLIŽE NE MÁŠ TO FAJN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YVkCKCB2TwKrgrk1Wrwo-17" value="a tím to je hotovo" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="450" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
